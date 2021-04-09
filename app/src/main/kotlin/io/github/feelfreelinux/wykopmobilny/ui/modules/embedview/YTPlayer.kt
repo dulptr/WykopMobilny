@@ -25,6 +25,7 @@ import android.widget.FrameLayout.LayoutParams
 import android.widget.Toast
 
 import java.net.URLDecoder
+import java.nio.charset.StandardCharsets
 
 
 object YouTubeUrlParser {
@@ -56,7 +57,7 @@ object YouTubeUrlParser {
 
     private fun unwrapConsentYoutubeUrl(url: String): String {
         val match = consentRegex.find(url) ?: return url
-        return URLDecoder.decode(match.groupValues[1], "utf-8")
+        return URLDecoder.decode(match.groupValues[1], StandardCharsets.UTF_8.name())
     }
 }
 
