@@ -1,8 +1,8 @@
 package io.github.feelfreelinux.wykopmobilny.utils
 
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNull
 import org.junit.Test
-
-import org.junit.Assert.*
 import org.junit.runner.RunWith
 import org.mockito.junit.MockitoJUnitRunner
 

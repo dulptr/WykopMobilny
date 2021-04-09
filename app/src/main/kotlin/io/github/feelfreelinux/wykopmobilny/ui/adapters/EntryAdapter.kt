@@ -7,7 +7,6 @@ import io.github.feelfreelinux.wykopmobilny.ui.adapters.viewholders.BlockedViewH
 import io.github.feelfreelinux.wykopmobilny.ui.adapters.viewholders.EntryCommentViewHolder
 import io.github.feelfreelinux.wykopmobilny.ui.adapters.viewholders.EntryListener
 import io.github.feelfreelinux.wykopmobilny.ui.adapters.viewholders.EntryViewHolder
-import io.github.feelfreelinux.wykopmobilny.ui.adapters.viewholders.RecyclableViewHolder
 import io.github.feelfreelinux.wykopmobilny.ui.fragments.entries.EntryActionListener
 import io.github.feelfreelinux.wykopmobilny.ui.fragments.entrycomments.EntryCommentActionListener
 import io.github.feelfreelinux.wykopmobilny.ui.fragments.entrycomments.EntryCommentViewListener

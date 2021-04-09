@@ -12,11 +12,7 @@ import io.github.feelfreelinux.wykopmobilny.ui.modules.mikroblog.entry.EntryActi
 import io.github.feelfreelinux.wykopmobilny.ui.modules.pm.conversation.ConversationActivity
 import io.github.feelfreelinux.wykopmobilny.ui.modules.profile.ProfileActivity
 import io.github.feelfreelinux.wykopmobilny.ui.modules.tag.TagActivity
-import io.github.feelfreelinux.wykopmobilny.utils.wykop_link_handler.linkparser.ConversationLinkParser
-import io.github.feelfreelinux.wykopmobilny.utils.wykop_link_handler.linkparser.EntryLinkParser
-import io.github.feelfreelinux.wykopmobilny.utils.wykop_link_handler.linkparser.LinkParser
-import io.github.feelfreelinux.wykopmobilny.utils.wykop_link_handler.linkparser.ProfileLinkParser
-import io.github.feelfreelinux.wykopmobilny.utils.wykop_link_handler.linkparser.TagLinkParser
+import io.github.feelfreelinux.wykopmobilny.utils.wykop_link_handler.linkparser.*
 import java.net.URI
 
 interface WykopLinkHandlerApi {

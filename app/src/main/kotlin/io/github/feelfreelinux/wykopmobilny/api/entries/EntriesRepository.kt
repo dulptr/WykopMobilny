@@ -9,12 +9,7 @@ import io.github.feelfreelinux.wykopmobilny.models.dataclass.EntryVotePublishMod
 import io.github.feelfreelinux.wykopmobilny.models.mapper.apiv2.EntryMapper
 import io.github.feelfreelinux.wykopmobilny.models.mapper.apiv2.SurveyMapper
 import io.github.feelfreelinux.wykopmobilny.models.mapper.apiv2.VoterMapper
-import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.EntryCommentResponse
-import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.EntryResponse
-import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.FavoriteResponse
-import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.SurveyResponse
-import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.VoteResponse
-import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.VoterResponse
+import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.*
 import io.reactivex.subjects.PublishSubject
 import retrofit2.Retrofit
 import toRequestBody

@@ -3,12 +3,7 @@ package io.github.feelfreelinux.wykopmobilny.ui.adapters
 import android.view.ViewGroup
 import io.github.feelfreelinux.wykopmobilny.models.dataclass.Link
 import io.github.feelfreelinux.wykopmobilny.models.dataclass.LinkComment
-import io.github.feelfreelinux.wykopmobilny.ui.adapters.viewholders.BaseLinkCommentViewHolder
-import io.github.feelfreelinux.wykopmobilny.ui.adapters.viewholders.BlockedViewHolder
-import io.github.feelfreelinux.wykopmobilny.ui.adapters.viewholders.LinkCommentViewHolder
-import io.github.feelfreelinux.wykopmobilny.ui.adapters.viewholders.LinkHeaderViewHolder
-import io.github.feelfreelinux.wykopmobilny.ui.adapters.viewholders.RecyclableViewHolder
-import io.github.feelfreelinux.wykopmobilny.ui.adapters.viewholders.TopLinkCommentViewHolder
+import io.github.feelfreelinux.wykopmobilny.ui.adapters.viewholders.*
 import io.github.feelfreelinux.wykopmobilny.ui.fragments.link.LinkHeaderActionListener
 import io.github.feelfreelinux.wykopmobilny.ui.fragments.linkcomments.LinkCommentActionListener
 import io.github.feelfreelinux.wykopmobilny.ui.fragments.linkcomments.LinkCommentViewListener

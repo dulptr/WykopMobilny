@@ -8,7 +8,7 @@ import android.view.View
 import android.view.Window
 import io.github.feelfreelinux.wykopmobilny.R
 import kotlinx.android.synthetic.main.year_month_picker.view.*
-import java.util.Calendar
+import java.util.*
 
 class MonthYearPickerDialog : androidx.fragment.app.DialogFragment() {
 

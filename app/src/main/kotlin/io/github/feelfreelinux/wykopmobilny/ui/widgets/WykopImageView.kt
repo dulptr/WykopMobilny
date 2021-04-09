@@ -17,7 +17,7 @@ import io.github.feelfreelinux.wykopmobilny.utils.preferences.SettingsPreference
 
 class WykopImageView @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
-) : ImageView(context, attrs, defStyleAttr) {
+) : androidx.appcompat.widget.AppCompatImageView(context, attrs, defStyleAttr) {
 
     init {
         setOnClickListener { openImageListener() }

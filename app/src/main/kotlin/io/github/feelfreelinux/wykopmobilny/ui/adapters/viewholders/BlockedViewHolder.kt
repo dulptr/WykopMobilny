@@ -8,11 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import io.github.feelfreelinux.wykopmobilny.R
-import io.github.feelfreelinux.wykopmobilny.models.dataclass.Author
-import io.github.feelfreelinux.wykopmobilny.models.dataclass.Entry
-import io.github.feelfreelinux.wykopmobilny.models.dataclass.EntryComment
-import io.github.feelfreelinux.wykopmobilny.models.dataclass.Link
-import io.github.feelfreelinux.wykopmobilny.models.dataclass.LinkComment
+import io.github.feelfreelinux.wykopmobilny.models.dataclass.*
 import io.github.feelfreelinux.wykopmobilny.utils.api.getGroupColor
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.blocked_entry_view.*

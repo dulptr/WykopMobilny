@@ -7,7 +7,7 @@ import io.github.feelfreelinux.wykopmobilny.utils.preferences.BlacklistPreferenc
 import io.github.feelfreelinux.wykopmobilny.utils.preferences.LinksPreferencesApi
 import io.github.feelfreelinux.wykopmobilny.utils.preferences.SettingsPreferencesApi
 import io.github.feelfreelinux.wykopmobilny.utils.textview.removeHtml
-import java.util.Collections
+import java.util.*
 import javax.inject.Inject
 
 class OWMContentFilter @Inject constructor(

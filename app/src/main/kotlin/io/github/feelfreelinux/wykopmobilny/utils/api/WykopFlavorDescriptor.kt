@@ -12,11 +12,7 @@ import org.intellij.markdown.html.HtmlGenerator
 import org.intellij.markdown.lexer.MarkdownLexer
 import org.intellij.markdown.parser.LinkMap
 import org.intellij.markdown.parser.sequentialparsers.SequentialParserManager
-import org.intellij.markdown.parser.sequentialparsers.impl.AutolinkParser
-import org.intellij.markdown.parser.sequentialparsers.impl.BacktickParser
-import org.intellij.markdown.parser.sequentialparsers.impl.EmphStrongParser
-import org.intellij.markdown.parser.sequentialparsers.impl.InlineLinkParser
-import org.intellij.markdown.parser.sequentialparsers.impl.ReferenceLinkParser
+import org.intellij.markdown.parser.sequentialparsers.impl.*
 import java.io.Reader
 import java.net.URI
 

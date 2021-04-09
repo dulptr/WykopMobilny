@@ -10,7 +10,7 @@ import io.github.feelfreelinux.wykopmobilny.utils.usermanager.UserManagerApi
 @Suppress("LeakingThis")
 abstract class VoteButton @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = R.attr.MirkoButtonStyle
-) : TextView(context, attrs, defStyleAttr) {
+) : androidx.appcompat.widget.AppCompatTextView(context, attrs, defStyleAttr) {
 
     var voteCount: Int
         get() = text.toString().toInt()

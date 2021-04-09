@@ -1,11 +1,7 @@
 package io.github.feelfreelinux.wykopmobilny.ui.widgets
 
 import android.content.Context
-import android.graphics.Canvas
-import android.graphics.Color
-import android.graphics.Paint
-import android.graphics.Rect
-import android.graphics.Typeface
+import android.graphics.*
 import androidx.appcompat.graphics.drawable.DrawerArrowDrawable
 
 class BadgeDrawerDrawable(context: Context) : DrawerArrowDrawable(context) {

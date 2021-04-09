@@ -1,12 +1,7 @@
 package io.github.feelfreelinux.wykopmobilny.api.links
 
 import io.github.feelfreelinux.wykopmobilny.api.WykopImageFile
-import io.github.feelfreelinux.wykopmobilny.models.dataclass.Downvoter
-import io.github.feelfreelinux.wykopmobilny.models.dataclass.Link
-import io.github.feelfreelinux.wykopmobilny.models.dataclass.LinkComment
-import io.github.feelfreelinux.wykopmobilny.models.dataclass.LinkVoteResponsePublishModel
-import io.github.feelfreelinux.wykopmobilny.models.dataclass.Related
-import io.github.feelfreelinux.wykopmobilny.models.dataclass.Upvoter
+import io.github.feelfreelinux.wykopmobilny.models.dataclass.*
 import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.DigResponse
 import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.LinkVoteResponse
 import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.VoteResponse

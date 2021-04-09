@@ -14,7 +14,7 @@ import com.devbrackets.android.exomedia.util.TimeFormatUtil
 import io.github.feelfreelinux.wykopmobilny.R
 import io.github.feelfreelinux.wykopmobilny.utils.isVisible
 import kotlinx.android.synthetic.main.media_controls.view.*
-import java.util.LinkedList
+import java.util.*
 
 class WykopMediaControls : VideoControls {
 

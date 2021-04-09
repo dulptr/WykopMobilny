@@ -1,11 +1,7 @@
 package io.github.feelfreelinux.wykopmobilny.ui.modules.loginscreen
 
 import android.os.Build
-import android.webkit.CookieManager
-import android.webkit.CookieSyncManager
-import android.webkit.WebResourceRequest
-import android.webkit.WebView
-import android.webkit.WebViewClient
+import android.webkit.*
 import androidx.annotation.RequiresApi
 
 typealias TokenUrlCallback = (url: String) -> Unit

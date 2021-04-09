@@ -1,12 +1,10 @@
 package io.github.feelfreelinux.wykopmobilny.models.dataclass
 
-import android.content.Context
 import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
 import android.os.Build
 import android.os.Parcel
 import android.os.Parcelable
-import android.view.View
 import android.widget.TextView
 import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.patrons.PatronBadge
 import io.github.feelfreelinux.wykopmobilny.utils.getActivityContext

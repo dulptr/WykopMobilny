@@ -2,24 +2,11 @@ package io.github.feelfreelinux.wykopmobilny.api.links
 
 import io.github.feelfreelinux.wykopmobilny.APP_KEY
 import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.common.WykopApiResponse
-import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.DigResponse
-import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.DownvoterResponse
-import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.LinkCommentResponse
-import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.LinkResponse
-import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.LinkVoteResponse
-import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.RelatedResponse
-import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.UpvoterResponse
-import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.VoteResponse
+import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.*
 import io.reactivex.Single
 import okhttp3.MultipartBody
 import okhttp3.RequestBody
-import retrofit2.http.Field
-import retrofit2.http.FormUrlEncoded
-import retrofit2.http.GET
-import retrofit2.http.Multipart
-import retrofit2.http.POST
-import retrofit2.http.Part
-import retrofit2.http.Path
+import retrofit2.http.*
 
 interface LinksRetrofitApi {
 

@@ -26,7 +26,7 @@ import org.threeten.bp.LocalTime
 import org.threeten.bp.Period
 import org.threeten.bp.format.DateTimeFormatter
 import org.threeten.bp.format.DateTimeParseException
-import java.util.Locale
+import java.util.*
 
 var View.isVisible: Boolean
     get() = visibility == View.VISIBLE

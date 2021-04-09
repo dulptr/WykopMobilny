@@ -24,7 +24,6 @@ import io.github.feelfreelinux.wykopmobilny.utils.textview.stripWykopFormatting
 import io.github.feelfreelinux.wykopmobilny.utils.usermanager.UserManagerApi
 import io.github.feelfreelinux.wykopmobilny.utils.wykop_link_handler.WykopLinkHandlerApi
 import kotlinx.android.extensions.LayoutContainer
-import kotlinx.android.synthetic.main.author_header_layout.view.*
 import kotlinx.android.synthetic.main.comment_list_item.*
 import kotlinx.android.synthetic.main.entry_comment_menu_bottomsheet.view.*
 

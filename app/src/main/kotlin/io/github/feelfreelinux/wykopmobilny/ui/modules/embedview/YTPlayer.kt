@@ -1,14 +1,5 @@
 package io.github.feelfreelinux.wykopmobilny.ui.modules.embedview
 
-import io.github.feelfreelinux.wykopmobilny.GOOGLE_KEY
-import io.github.feelfreelinux.wykopmobilny.utils.youtubeTimestampToMsOrNull
-
-import com.google.android.youtube.player.YouTubeBaseActivity
-import com.google.android.youtube.player.YouTubeInitializationResult
-import com.google.android.youtube.player.YouTubePlayer
-import com.google.android.youtube.player.YouTubePlayer.ErrorReason
-import com.google.android.youtube.player.YouTubePlayerView
-
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
@@ -23,7 +14,13 @@ import android.view.KeyEvent
 import android.view.View
 import android.widget.FrameLayout.LayoutParams
 import android.widget.Toast
-
+import com.google.android.youtube.player.YouTubeBaseActivity
+import com.google.android.youtube.player.YouTubeInitializationResult
+import com.google.android.youtube.player.YouTubePlayer
+import com.google.android.youtube.player.YouTubePlayer.ErrorReason
+import com.google.android.youtube.player.YouTubePlayerView
+import io.github.feelfreelinux.wykopmobilny.GOOGLE_KEY
+import io.github.feelfreelinux.wykopmobilny.utils.youtubeTimestampToMsOrNull
 import java.net.URLDecoder
 import java.nio.charset.StandardCharsets
 

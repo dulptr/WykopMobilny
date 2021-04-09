@@ -14,7 +14,6 @@ import io.github.feelfreelinux.wykopmobilny.utils.usermanager.UserManagerApi
 import io.reactivex.Single
 import org.junit.Before
 import org.junit.Test
-import java.io.IOException
 
 class WykopNotificationsJobPresenterTest {
     lateinit var subjectUnderTest : WykopNotificationsJobPresenter

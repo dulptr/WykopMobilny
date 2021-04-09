@@ -11,7 +11,7 @@ import io.github.feelfreelinux.wykopmobilny.utils.getActivityContext
 
 class FavoriteButton @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = R.attr.MirkoButtonStyle
-) : ImageView(context, attrs, defStyleAttr) {
+) : androidx.appcompat.widget.AppCompatImageView(context, attrs, defStyleAttr) {
 
     var favoriteDrawable: Drawable
     var favoriteOutlineDrawable: Drawable

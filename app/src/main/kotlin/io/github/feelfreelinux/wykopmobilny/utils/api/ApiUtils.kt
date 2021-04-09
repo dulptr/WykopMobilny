@@ -11,9 +11,7 @@ import org.threeten.bp.ZoneId
 import org.threeten.bp.format.DateTimeFormatter
 import java.security.MessageDigest
 import java.text.SimpleDateFormat
-import java.util.Date
-import java.util.Locale
-import java.util.TimeZone
+import java.util.*
 
 fun parseDate(date: String): Date {
     val format = SimpleDateFormat("yyyy-MM-dd kk:mm:ss", Locale.GERMANY)

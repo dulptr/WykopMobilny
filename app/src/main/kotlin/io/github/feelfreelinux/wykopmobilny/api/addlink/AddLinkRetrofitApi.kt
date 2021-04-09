@@ -6,11 +6,7 @@ import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.AddLinkPrev
 import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.models.LinkResponse
 import io.github.feelfreelinux.wykopmobilny.models.pojo.apiv2.responses.NewLinkResponse
 import io.reactivex.Single
-import retrofit2.http.Field
-import retrofit2.http.FormUrlEncoded
-import retrofit2.http.GET
-import retrofit2.http.POST
-import retrofit2.http.Path
+import retrofit2.http.*
 
 interface AddLinkRetrofitApi {
     @FormUrlEncoded

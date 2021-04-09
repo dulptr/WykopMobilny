@@ -17,12 +17,7 @@ import io.github.feelfreelinux.wykopmobilny.utils.ClipboardHelper
 import io.github.feelfreelinux.wykopmobilny.utils.ClipboardHelperApi
 import io.github.feelfreelinux.wykopmobilny.utils.api.CredentialsPreferences
 import io.github.feelfreelinux.wykopmobilny.utils.api.CredentialsPreferencesApi
-import io.github.feelfreelinux.wykopmobilny.utils.preferences.BlacklistPreferences
-import io.github.feelfreelinux.wykopmobilny.utils.preferences.BlacklistPreferencesApi
-import io.github.feelfreelinux.wykopmobilny.utils.preferences.LinksPreferences
-import io.github.feelfreelinux.wykopmobilny.utils.preferences.LinksPreferencesApi
-import io.github.feelfreelinux.wykopmobilny.utils.preferences.SettingsPreferences
-import io.github.feelfreelinux.wykopmobilny.utils.preferences.SettingsPreferencesApi
+import io.github.feelfreelinux.wykopmobilny.utils.preferences.*
 import io.github.feelfreelinux.wykopmobilny.utils.usermanager.UserManager
 import io.github.feelfreelinux.wykopmobilny.utils.usermanager.UserManagerApi
 import okhttp3.Cache

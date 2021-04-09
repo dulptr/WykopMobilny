@@ -1,28 +1,22 @@
 package io.github.feelfreelinux.wykopmobilny.api
 
 import android.content.Context
+import android.graphics.Bitmap
 import android.graphics.BitmapFactory
+import android.graphics.Matrix
+import android.media.ExifInterface
 import android.net.Uri
+import android.util.Log
 import io.github.feelfreelinux.wykopmobilny.utils.FileUtils
 import io.github.feelfreelinux.wykopmobilny.utils.printout
 import io.github.feelfreelinux.wykopmobilny.utils.queryFileName
 import okhttp3.MediaType
 import okhttp3.MultipartBody
 import okhttp3.RequestBody
-import com.google.android.youtube.player.internal.y
-import com.google.android.youtube.player.internal.x
-import android.graphics.Bitmap
-import android.R.attr.orientation
-import android.graphics.Matrix
-import android.media.ExifInterface
-import android.util.Log
-import com.evernote.android.job.JobProxy.Common
-import com.google.android.youtube.player.internal.v
-import io.github.feelfreelinux.wykopmobilny.R.id.imageView
-import java.io.*
-import android.os.Environment.getExternalStorageDirectory
-
-
+import java.io.File
+import java.io.FileInputStream
+import java.io.FileOutputStream
+import java.io.IOException
 
 
 class WykopImageFile(val uri: Uri, val context: Context) {
