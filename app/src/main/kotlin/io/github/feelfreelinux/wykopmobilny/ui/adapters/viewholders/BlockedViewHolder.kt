@@ -28,7 +28,7 @@ class BlockedViewHolder(
 
         containerView.setOnClickListener {
             entry.isBlocked = false
-            blockListener(adapterPosition)
+            blockListener(bindingAdapterPosition)
         }
 
     }
@@ -38,7 +38,7 @@ class BlockedViewHolder(
 
         containerView.setOnClickListener {
             comment.isBlocked = false
-            blockListener(adapterPosition)
+            blockListener(bindingAdapterPosition)
         }
     }
 
@@ -47,7 +47,7 @@ class BlockedViewHolder(
 
         containerView.setOnClickListener {
             link.isBlocked = false
-            blockListener(adapterPosition)
+            blockListener(bindingAdapterPosition)
         }
     }
 
@@ -56,7 +56,7 @@ class BlockedViewHolder(
 
         containerView.setOnClickListener {
             linkComment.isBlocked = false
-            blockListener(adapterPosition)
+            blockListener(bindingAdapterPosition)
         }
     }
 

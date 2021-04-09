@@ -123,18 +123,18 @@ class ProfileActivity : BaseActivity(), ProfileView {
         }
         profileResponse.sex?.let {
             genderStripImageView.isVisible = true
-            genderStripImageView.setBackgroundResource(getGenderStripResource(profileResponse.sex!!))
+            genderStripImageView.setBackgroundResource(getGenderStripResource(profileResponse.sex))
         }
 
         profileResponse.ban?.apply {
-            if (profileResponse.ban?.reason != null && profileResponse.ban?.date != null) {
+            if (profileResponse.ban.reason != null && profileResponse.ban.date != null) {
                 banTextView.isVisible = true
                 banTextView.text = "Użytkownik zbanowany do $date za $reason"
             }
         }
         backgroundImg.isVisible = true
         profileResponse.background?.let {
-            backgroundImg.loadImage(profileResponse.background!!)
+            backgroundImg.loadImage(profileResponse.background)
             toolbar.setBackgroundResource(R.drawable.gradient_toolbar_up)
         }
     }

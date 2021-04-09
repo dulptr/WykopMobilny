@@ -46,8 +46,8 @@ class AddLinkDetailsFragment : BaseFragment(), AddLinkDetailsFragmentView {
     }
 
     override fun openLinkScreen(link: Link) {
-        navigator.openLinkDetailsActivity(activity!!, link)
-        activity!!.finish()
+        navigator.openLinkDetailsActivity(requireActivity(), link)
+        requireActivity().finish()
     }
 
     override fun showImages(images: List<AddLinkPreviewImage>) {

@@ -148,8 +148,7 @@ class NewNavigator(val context: Activity) : NewNavigatorApi {
         context.startActivity(AddlinkActivity.createIntent(context))
 
     override fun shareUrl(url: String) {
-        ShareCompat.IntentBuilder
-            .from(context)
+        ShareCompat.IntentBuilder(context)
             .setType("text/plain")
             .setChooserTitle(R.string.share)
             .setText(url)

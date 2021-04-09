@@ -45,8 +45,8 @@ class WykopImageFile(val uri: Uri, val context: Context) {
         }
 
         val rotatedFile = ensureRotation(file)
-        printout(rotatedFile!!.name!!)
-        return MultipartBody.Part.createFormData("embed", rotatedFile!!.name, RequestBody.create(MediaType.parse(mimetype), rotatedFile))
+        printout(rotatedFile!!.name)
+        return MultipartBody.Part.createFormData("embed", rotatedFile.name, RequestBody.create(MediaType.parse(mimetype), rotatedFile))
     }
 
     private fun saveUri(uri: Uri, filename: String): File? {
@@ -69,7 +69,6 @@ class WykopImageFile(val uri: Uri, val context: Context) {
                 return file
             }
         }
-        return null
     }
 
     private fun ensureRotation(f: File?): File? {

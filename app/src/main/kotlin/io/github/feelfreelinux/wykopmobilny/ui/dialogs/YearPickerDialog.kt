@@ -30,7 +30,7 @@ class YearPickerDialog : androidx.fragment.app.DialogFragment() {
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         val dialogBuilder = AlertDialog.Builder(context)
-        val argumentYear = arguments!!.getInt(EXTRA_YEAR)
+        val argumentYear = requireArguments().getInt(EXTRA_YEAR)
         yearSelection = if (argumentYear == 0) currentYear else argumentYear
         val dialogView = View.inflate(context, R.layout.year_picker, null)
         dialogBuilder.apply {

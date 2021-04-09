@@ -84,8 +84,8 @@ open class BaseEntryLinkFragment : BaseFragment(), EntryLinkFragmentView, androi
     override fun showVoters(voters: List<Voter>) = votersDialogListener(voters)
 
     override fun openVotersMenu() {
-        val dialog = com.google.android.material.bottomsheet.BottomSheetDialog(activity!!)
-        val votersDialogView = activity!!.layoutInflater.inflate(R.layout.dialog_voters, null)
+        val dialog = com.google.android.material.bottomsheet.BottomSheetDialog(requireActivity())
+        val votersDialogView = requireActivity().layoutInflater.inflate(R.layout.dialog_voters, null)
         votersDialogView.votersTextView.isVisible = false
         dialog.setContentView(votersDialogView)
         votersDialogListener = createVotersDialogListener(dialog, votersDialogView)

@@ -4,7 +4,6 @@ import android.content.Context
 import android.graphics.Bitmap
 import android.util.AttributeSet
 import android.util.DisplayMetrics
-import android.widget.ImageView
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.target.SimpleTarget
@@ -30,7 +29,7 @@ class WykopImageView @JvmOverloads constructor(
     var onResizedListener: (Boolean) -> Unit = {}
     var showResizeView: (Boolean) -> Unit = {}
 
-    private val settingsPreferencesApi by lazy { SettingsPreferences(context) as SettingsPreferencesApi }
+    private val settingsPreferencesApi by lazy { SettingsPreferences(context) }
     private val screenMetrics by lazy {
         val metrics = DisplayMetrics()
         getActivityContext()!!.windowManager.defaultDisplay.getMetrics(metrics)

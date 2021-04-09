@@ -21,6 +21,6 @@ class GlideModule : AppGlideModule() {
         builder.writeTimeout(30, TimeUnit.SECONDS)
         builder.connectTimeout(30, TimeUnit.SECONDS)
         builder.addInterceptor(RetryInterceptor())
-        registry?.append(GlideUrl::class.java, InputStream::class.java, OkHttpUrlLoader.Factory(builder.build()))
+        registry.append(GlideUrl::class.java, InputStream::class.java, OkHttpUrlLoader.Factory(builder.build()))
     }
 }

@@ -36,9 +36,9 @@ class HotFragment : BaseFragment(), BaseNavigationView, HotView {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         setHasOptionsMenu(true)
         fab.setOnClickListener {
-            navigatorApi.openAddEntryActivity(activity!!)
+            navigatorApi.openAddEntryActivity(requireActivity())
         }
-        navigation.activityToolbar.overflowIcon = ContextCompat.getDrawable(activity!!, R.drawable.ic_hot)
+        navigation.activityToolbar.overflowIcon = ContextCompat.getDrawable(requireActivity(), R.drawable.ic_hot)
         return inflater.inflate(R.layout.hot_fragment, container, false)
     }
 
@@ -74,7 +74,7 @@ class HotFragment : BaseFragment(), BaseNavigationView, HotView {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item?.itemId) {
+        when (item.itemId) {
             R.id.period6 -> {
                 presenter.period = "6"
                 navigation.activityToolbar.setTitle(R.string.period6)

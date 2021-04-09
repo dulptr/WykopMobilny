@@ -26,7 +26,7 @@ class UpcomingFragment : BaseLinksFragment(), UpcomingView {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         setHasOptionsMenu(true)
-        navigation.activityToolbar.overflowIcon = ContextCompat.getDrawable(activity!!, R.drawable.ic_sort)
+        navigation.activityToolbar.overflowIcon = ContextCompat.getDrawable(requireActivity(), R.drawable.ic_sort)
         return super.onCreateView(inflater, container, savedInstanceState)
     }
 

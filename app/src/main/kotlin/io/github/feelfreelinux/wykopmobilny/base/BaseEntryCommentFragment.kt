@@ -35,7 +35,7 @@ open class BaseEntryCommentFragment : BaseFragment(), EntryCommentsFragmentView,
         }
 
     override fun openVotersMenu() {
-        val dialog = com.google.android.material.bottomsheet.BottomSheetDialog(activity!!)
+        val dialog = com.google.android.material.bottomsheet.BottomSheetDialog(requireActivity())
         val votersDialogView = layoutInflater.inflate(R.layout.dialog_voters, null)
         votersDialogView.votersTextView.isVisible = false
         dialog.setContentView(votersDialogView)
